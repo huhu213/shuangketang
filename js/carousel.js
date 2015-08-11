@@ -14,6 +14,10 @@ $(document).ready(function(){
 	$(".editPartner").click(function(){
 		$("#fileupload").click();
 	})
+	
+	$(".pagePlus").click(function(){
+		$("#fileupload").click();
+	})
 		
 	$(".editStory").click(function(){
 		var $editPage = $("#editPage");
