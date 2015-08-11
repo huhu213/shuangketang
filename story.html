@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/carousel.css" rel="stylesheet">
+	<body>
+        <div id="bg"></div>
+        <div id="editPage" class="editPage">
+			<div class="header">
+				<span>编辑数字故事</span>
+			</div>
+			<div class="thumb">
+				<img src="img/u229.png">
+			</div>
+			<div class="story">
+				<ul>
+					<li>
+						<label>标题：</label><input type="text" />
+					</li>
+					<li>
+						<label>作者：</label><input type="text" />
+					</li>
+					<li>
+						<label>简介：</label><textarea></textarea>
+					</li>
+					<li>
+						<label>视频：</label>
+						<input type="file" id="fileupload"/>
+						<span class="glyphicon glyphicon-edit" id="editPageEdit"></span>
+						<a href="#">我们别样的语文课</a>
+					</li>
+				</ul>
+			</div>
+			<div class="buttongroup">
+					<button class="btn btn-primary btnSave" id="btnSave">保存</button>
+				    <button class="btn btn-default btnCancel" id="btnCancel">取消</button>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="storyList">
+					<ul>
+						<li>
+							<div class="col-md-10 col-sm-10">
+								<div class="thumbnailBox">
+									<img src="img/u229.png">
+								</div>
+								<div class="editBox editBox_2">
+									<ul>
+										<li class="glyphicon glyphicon-edit editStory"></li>
+										<li class="glyphicon glyphicon-arrow-up" id="moveup"></li>
+										<li class="glyphicon glyphicon-arrow-down" id="movedown"></li>
+										<li class="glyphicon glyphicon-trash" id="delete"></li>
+									</ul>
+								</div>
+								<div class="storyBox">
+									<ul>
+										<li><label>标题：</label>我们别样的语文课</li>
+										<li><label>作者：</label>北京市教育科学研究院附属中学 方向辉</li>
+										<li><label>简介：</label>数字故事发生在“北京教育科学研究院附属实验中学”。故事里，方老师借助“电子书包”为学生们搭建了一个不受时空限制的“虚拟课堂”，并初次尝试了“翻转课堂”这一全新的教学方法，带领学生们尽情畅游在知识的海洋里。如果您想了解更多，请欣赏下面的视频~</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="col-md-10 col-sm-10">
+								<div class="thumbnailBox">
+									<img src="img/u229.png">
+								</div>
+								<div class="editBox editBox_2">
+									<ul>
+										<li class="glyphicon glyphicon-edit editStory"></li>
+										<li class="glyphicon glyphicon-arrow-up" id="moveup"></li>
+										<li class="glyphicon glyphicon-arrow-down" id="movedown"></li>
+										<li class="glyphicon glyphicon-trash" id="delete"></li>
+									</ul>
+								</div>
+								<div class="storyBox">
+									<ul>
+										<li><label>标题：</label>我们别样的语文课</li>
+										<li><label>作者：</label>北京市教育科学研究院附属中学 方向辉</li>
+										<li><label>简介：</label>数字故事发生在“北京教育科学研究院附属实验中学”。故事里，方老师借助“电子书包”为学生们搭建了一个不受时空限制的“虚拟课堂”，并初次尝试了“翻转课堂”这一全新的教学方法，带领学生们尽情畅游在知识的海洋里。如果您想了解更多，请欣赏下面的视频~</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/carousel.js"></script>
+</html>
